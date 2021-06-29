@@ -8,9 +8,9 @@ $google_maps_api="AIzaSyC3HSSW38iMq7x_abVoB52F10FZCNe1NRA";
 $jsonfilelocation = "/var/www/html/p2pfinal/lib/stagesData.json";
 // == DataBase Config ==
 $servername = "localhost";
-$username = "zero";
-$password = "a123123a";
-$dbname = "plan2plant";
+$username = "root";
+$password = "";
+$dbname = "p2p";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
